@@ -4,14 +4,15 @@ console.log("My very first bun project!!");
 // function name(): type {
 //     ...
 // }
+import {sum,prod} from './calc';
 
-function sum(a: number,b: number): number{
-    return a+b;
-}
-
-
-var ans = sum(7,6);
+let ans:number = sum(7,6);
 
 console.log(ans);
 ans ++;
 console.log(ans);
+console.log("sum fun:",sum(10,59));
+
+console.log("prod fun:",prod(5,6));
+
+let a;
